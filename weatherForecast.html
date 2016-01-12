@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Weather Forecast</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+<center>
+<div style="text-align:left; height:30px; font-family: Helvetica Neue,Helvetica,Arial,sans-serif; color:#9d9d9d; width:100%; border-radius:0px; background-color:#222; margin-bottom:20px; padding:15px;">
+<font style='float:left;' size='5'>Drew Jex</font>
+<!--<div style='float:left; margin-left:170px; margin-top:7px;'>
+<a style='color:white; margin-right:30px;' href="index.html">Home</a>
+<a style='color:white; margin-right:30px;' href="currentWeather.html">View Current Weather</a>
+<a style='color:white;' href="weatherForecast.html">View Weather Forecast</a>
+</div>!-->
+</div>
+
+<div class='content'>
+<div class='contentHeader'>Current Weather<div class='back'><a href='index.html'><< Go Back</a></div></div>
+<div style='padding:10px;'>
+View the weather forecast for your area!<br>
+<pre> Note: Weather Predictions are incorrect about 50% of the time! Also note: This was written with the pre tag! </pre><br>
+<table>
+<th width='150px'>Area</th>
+<th width='200px'>Monday</th>
+<th width='200px'>Tuesday</th>
+<th width='200px'>Wednesday</th>
+<th width='200px'>Thursday</th>
+<tr>
+<td>Provo, UT</td>
+<td><img src='images/snow.png' width='50px' height='50px' /></td>
+<td><img src='images/snow.png' width='50px' height='50px' /></td>
+<td><img src='images/snow.png' width='50px' height='50px' /></td>
+<td><img src='images/snow.png' width='50px' height='50px' /></td>
+</tr>
+<tr>
+<td>San Diego, CA</td>
+<td><img src='images/sunny.png' width='50px' height='50px' /></td>
+<td><img src='images/partlycloudy.png' width='50px' height='50px' /></td>
+<td><img src='images/sunny.png' width='50px' height='50px' /></td>
+<td><img src='images/sunny.png' width='50px' height='50px' /></td>
+</tr>
+</table>
+
+<br><br>
+
+<b>Subscribe to get daily updates on current weather conditions and a projected forecast!</b><br><br>
+<form id='subscribe' name='subscribe' method='post' action="#">
+  First name:<br>
+  <input type="text" name="firstname">
+  <br>
+  Last name:<br>
+  <input type="text" name="lastname">
+  <br>
+  Email:<br>
+  <input type="email" name="lastname"><br><br> 
+  <input type="submit" value="Submit">
+</form>
+
+</div>
+</div> 
+
+</center>
+</body>
+
+</html>
