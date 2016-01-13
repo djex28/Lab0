@@ -21,19 +21,19 @@ a {
 }
 
 a:link {
-    color: #fff;
+    color: #eee;
 }
 
 a:visited {
-    color: #ddd;
+    color: #ccc;
 }
 
 a:hover {
-    color: #ddd;
+    color: #ccc;
 }
 
 a:active {
-    color: #ddd;
+    color: #ccc;
 }
 
 .back {
